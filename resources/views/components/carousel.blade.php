@@ -3,7 +3,7 @@
     'items' => [],
     'portrait' => true
 ])
-<div class=" carousel @if($portrait) portrait @endif " x-data='carousel( @json($items) )'>
+<div class=" carousel @if($portrait) portrait @endif " x-data='carousel( @json($items) )' >
     <template x-for="(slide, index) in slides">
         <carousel-slide class="carousel-slide" :class="(activeSlide === index) ? 'active' : ''">
             <img :src="slide" alt="{{ $alt }}">

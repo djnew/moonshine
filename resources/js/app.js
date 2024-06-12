@@ -5,6 +5,7 @@ import AlpineMS from 'alpinejs'
 import {MoonShine} from './moonshine.js'
 import persist from '@alpinejs/persist'
 import mask from '@alpinejs/mask'
+import "hammerjs/hammer.min.js"
 
 // Alpine components
 import formBuilder from './alpine/formBuilder'
